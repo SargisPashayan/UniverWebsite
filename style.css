@@ -260,3 +260,54 @@ p{
         margin-right: 15px;
     }
 }
+
+/*----- call to us -----*/
+
+.cta{
+    margin: 70px auto;
+    width: 90%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/cta.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+
+}
+
+.cta h2{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+    .cta h2{
+        font-size: 15px;
+    }
+}
+
+/*----- footer -----*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: 700;
+}
+
+.icons .fa{
+    color: #f44336;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 20px 0;
+}
