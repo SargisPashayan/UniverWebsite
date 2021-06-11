@@ -182,3 +182,34 @@ p{
         flex-direction: column;
     }
 }
+
+/*----- Facilities -----*/
+
+.facilities{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.facilities-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+    height: 70%;
+}
+
+.facilities-col p{
+    padding: 0;
+}
+
+.facilities-col h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
