@@ -4,11 +4,11 @@
     display: inline-flex;
     justify-content: space-between;
     column-gap: 25px;
+    flex-wrap: wrap;
 }
 
-
 .course-column{
-    flex-basis: 10%;
+    width: 100px;
     background: #f1d1d1;
     border-radius: 70px;
     margin-bottom: 5;
@@ -22,7 +22,7 @@
 }
 
 .course-column img{
-    width: 220px;
+    width: 100px;
 }
 
 @media(max-width: 700px){
