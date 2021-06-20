@@ -9,11 +9,13 @@
     <meta name="keywords" content="ACA, coding, academy" />
     <title>Armenian Code Academy website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="shortcut icon" type="image/jpg" href="images/logo.jpg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="validators.js"></script>
 </head>
 
 <body>
@@ -47,10 +49,23 @@
         4v1623700773732!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen=""
             loading="lazy"></iframe>
         <div class="signIn-box">
-            <form class="sign-in">
-                <input type="text" placeholder="Enter Name">
-                <input type="text" placeholder="Enter Email">
-                <input type="text" placeholder="Your Password">
+            <form class="sign-in" id="form">
+                <div class="form-control">
+                    <input type="text" placeholder="Enter Name" id="username">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <input type="text" placeholder="Enter Email" id="email">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <input type="text" placeholder="Your Password" id="password">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <input type="text" placeholder="Confirm Password" id="password2">
+                    <small>Error message</small>
+                </div>
                 <button type="submit" class="visit-btn explore-btn">Sign In</button>
             </form>
         </div>

@@ -444,28 +444,3 @@ p{
         font-size: 24px;
     }
 }
-
-/* ----- contact ----- */
-
-.location{
-    width: 90%;
-    margin: auto;
-    padding: 80px 0;
-}
-
-.location iframe{
-    width: 100%;
-}
-
-.signIn-box{
-    width: 30%;
-    border: 1px solid #ccc;
-    margin: 50px 0;
-    padding: 10px 20px
-}
-
-@media(max-width: 700px){
-    .signIn-box{
-        width: 80%;
-    }
-}
